@@ -7,10 +7,15 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.Button;
 import android.view.View.OnClickListener;
+import android.widget.GridView;
 import android.widget.ListView;
+import android.widget.TextView;
+
+import org.w3c.dom.Text;
 
 
 public class Pengumuman extends Activity {
+
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -24,13 +29,8 @@ public class Pengumuman extends Activity {
                 startActivity(new Intent(Pengumuman.this, PengumumanTambah.class));
             }
         });
-
-        ListView listview = (ListView) findViewById(R.id.listview);
-        listview.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            @Override
-            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                startActivity(new Intent(Pengumuman.this, PengumumanRincian.class));
-            }
-        });
     }
+
+    public void func1(View view){
+        startActivity(new Intent(Pengumuman.this, PengumumanRinci.class));}
 }

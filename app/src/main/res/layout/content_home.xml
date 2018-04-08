@@ -14,6 +14,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="26dp"
         android:ems="10"
+        android:background="@drawable/line"
         android:text="@string/lorem_itsum" />
 
     <TextView
@@ -45,8 +46,16 @@
         android:layout_below="@+id/textView"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"
-        android:background="@color/colorAccent"
-        android:text="Pengumuman Terbaru"
+        android:background="@color/blue"
+        android:text="Judul Pengumuman"
         android:textAppearance="@style/TextAppearance.AppCompat.Caption" />
+
+    <GridView
+        android:id="@+id/gridview"
+        android:layout_width="320dp"
+        android:layout_height="320dp"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp" />
 
 </RelativeLayout>
