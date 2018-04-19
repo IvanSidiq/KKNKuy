@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/KKNKuy.iml" filepath="$PROJECT_DIR$/KKNKuy.iml" />
+      <module fileurl="file://D:\Kuliah\Sem 6\KKNKuy-master\KKNKuy-master\KKNKuy.iml" filepath="D:\Kuliah\Sem 6\KKNKuy-master\KKNKuy-master\KKNKuy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/KKNKuy-master.iml" filepath="$PROJECT_DIR$/KKNKuy-master.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
